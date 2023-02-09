@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    position: fixed;
+    margin-top: 10px;
+ 
+   
+  
+    
+ 
+}
+body{
+   
+    background-color: rgb(24, 24, 24);
+    color: rgb(195, 195, 195);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+.title{
+    text-align: center;
+    text-decoration: underline;
+    ;
+
+}
+
+.nav-bar{
+    list-style: none;
+    height: 60px;
+    width: 90%;
+    margin-top:-100px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 100px;
+    justify-content: space-between;
+   
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.7); 
+    }
+
+
+
+
+.nav-bar .categoria{
+    border: 1px solid rgb(61, 61, 61);
+   padding-top: 20px;
+    width: 100%;
+    text-align: center;
+    transition: 300ms;
+    
+}
+.nav-bar .categoria:hover{
+    background-color: rgb(55, 55, 55);
+    transition: 500ms;
+}
+.container1{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.lucasImg{
+    max-width: 460px;
+    width: 90%;
+    margin-left: 20px;
+    border: 5px solid black;
+    
+}
+
+.container-descript{
+    width: 100%;
+    padding: 45px;
+
+}
+
+.titulo-perfil          {
+    font-size: 40px;
+}
+
+.footer{
+
+
+
+
+}
+
+.title-footer{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    text-decoration: underline;
+}
+.redes-sociales{
+    list-style: none;
+    display: flex;
+    padding-left:  400px;
+    padding-right:  400px;
+    text-align: center;
+    
+}
+.categoria-redes{
+    padding: 10px;
+    width: 100%;
+  
+}
+
+.logo-redes{
+    height: 200px;
+    width: 200px;
+}
+
+
+    
+   
+    
+
+@media (min-width:720px){
+    .container1{
+        display: flex;
+        flex-direction: row
+    };
+    .lucasImg{
+        width: 45%;
+        
+        border: 5px solid black;
+        
+    };
+
+    
+   
+    .container-descript{
+
+        padding: 45px;
+        width: 30%;
+    
+    }
+    
+}
+
+@media(min-width: 1280px){
+   
+        .lucasImg{
+            width: 30%;
+            margin-left: 80px;
+            border: 5px solid black;
+            
+        }
+        .container1{
+            display: flex;
+            flex-direction: row
+        };
+        .container-descript{
+
+            padding: 45px;
+            width: 50%;
+        
+        }
+
+        .nav-bar{
+            
+            width: 97%;
+           
+            }
+        
+    
+};
+
