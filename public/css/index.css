@@ -102,8 +102,7 @@ body{
 .redes-sociales{
     list-style: none;
     display: flex;
-    padding-left:  400px;
-    padding-right:  400px;
+    
     text-align: center;
     
 }
@@ -114,8 +113,8 @@ body{
 }
 
 .logo-redes{
-    height: 200px;
-    width: 200px;
+    height:100px;
+    width: 100px;
 }
 
 

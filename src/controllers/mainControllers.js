@@ -2,7 +2,7 @@ const express= require('express')
 
 
 const mainControllers = {
-    index : (req, res)=>{res.render('index')}
+    index : (req, res)=>{res.render('index.ejs')}
     
 }
 
